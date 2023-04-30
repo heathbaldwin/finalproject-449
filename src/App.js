@@ -14,7 +14,7 @@ export default function App() {
                 <a class="navbar-brand" href="#">
                   <img
                     src="imgs/list-ol.svg"
-                    alt="Logo"
+                    alt="Logo Image"
                     width="30"
                     height="24"
                     class="d-inline-block align-text-top"
@@ -28,7 +28,7 @@ export default function App() {
       </Navbar>
       <Card>
         <div class="card" styles="width: 18rem;">
-          <img src="imgs/dwarner" class="card-img-top" alt="DameionWarner" />
+          <img src="imgs/dwarner" class="card-img-top" alt="Card Image" />
           <div class="card-body">
             <h5 class="card-title">Decathlon fans from across the world...</h5>
             <p class="card-text">
