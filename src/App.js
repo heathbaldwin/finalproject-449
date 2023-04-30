@@ -1,15 +1,21 @@
 import React from "react";
 import "./style.css";
-import { Button, Images } from "react-bootstrap"
+import { Navbar } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 export default function App() {
   return (
     <div>
-      <img src="imgs/dwarner" class="img-fluid" alt="damienwarner"></img>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-      <Button> Hi </Button>
+      <header className= "App-header">
+      <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="imgs/dwarner" alt="" width="30" height="24" class="d-inline-block align-text-top"></img>
+      Decathlon World Rankings
+    </a>
+  </div>
+</nav>
+        </header>
     </div>
     
   );
