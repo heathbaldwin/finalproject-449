@@ -4,12 +4,13 @@
   "private": true,
   "dependencies": {
     "@popperjs/core": "2.11.7",
+    "@supabase/supabase-js": "^2.21.0",
     "@types/react": "18.2.0",
     "bootstrap": "5.2.3",
     "react": "18.1.0",
     "react-bootstrap": "2.7.4",
     "react-dom": "18.1.0",
-    "reactstrap": "^9.1.9"
+    "reactstrap": "9.1.9"
   },
   "scripts": {
     "start": "react-scripts start",
