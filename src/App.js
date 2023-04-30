@@ -3,26 +3,26 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Card } from 'reactstrap';
 import './app.css';
+import { supabase } from './supabaseClient';
 
 export default function App() {
   return (
     <div>
       <Navbar>
         <header className="App-header">
-          
-            <nav class="navbar bg-body-tertiary">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="">
-                  <img
-                    src="https://static.vecteezy.com/system/resources/thumbnails/014/532/400/small_2x/letter-d-gradient-logo-design-free-vector.jpg"
-                    alt="Logo Image"
-                    width="75"
-                    height="75"
-                    class="d-inline-block align-text-top"
-                  />
-                  DecaRanks
-                </a>
-              </div>
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="">
+                <img
+                  src="https://static.vecteezy.com/system/resources/thumbnails/014/532/400/small_2x/letter-d-gradient-logo-design-free-vector.jpg"
+                  alt="Logo Image"
+                  width="75"
+                  height="75"
+                  class="d-inline-block align-text-top"
+                />
+                DecaRanks
+              </a>
+            </div>
           </nav>
         </header>
       </Navbar>
