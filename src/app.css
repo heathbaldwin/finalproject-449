@@ -1,0 +1,10 @@
+.navbar-brand {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card {
+  width: 75%;
+  margin: auto;
+  height: 100%;
+  border: none;
+}

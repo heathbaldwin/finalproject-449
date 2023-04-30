@@ -2,33 +2,37 @@ import React from 'react';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Card } from 'reactstrap';
+import './app.css';
 
 export default function App() {
   return (
     <div>
       <Navbar>
         <header className="App-header">
-          <nav class="navbar bg-primary" data-bs-theme="dark">
+          
             <nav class="navbar bg-body-tertiary">
               <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="">
                   <img
-                    src="imgs/list-ol.svg"
+                    src="https://static.vecteezy.com/system/resources/thumbnails/014/532/400/small_2x/letter-d-gradient-logo-design-free-vector.jpg"
                     alt="Logo Image"
-                    width="30"
-                    height="24"
+                    width="75"
+                    height="75"
                     class="d-inline-block align-text-top"
                   />
-                  Decathlon World Rankings
+                  DecaRanks
                 </a>
               </div>
-            </nav>
           </nav>
         </header>
       </Navbar>
       <Card>
-        <div class="card" styles="width: 18rem;">
-          <img src="imgs/dwarner" class="card-img-top" alt="Card Image" />
+        <div class="card">
+          <img
+            src="https://i.cbc.ca/1.6130478.1628186546!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/1332494986.jpg"
+            class="card-img-top"
+            alt="Card Image"
+          />
           <div class="card-body">
             <h5 class="card-title">Decathlon fans from across the world...</h5>
             <p class="card-text">
