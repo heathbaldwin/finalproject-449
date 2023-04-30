@@ -7,15 +7,17 @@ export default function App() {
   return (
     <div>
       <header className= "App-header">
+      <nav class="navbar bg-primary" data-bs-theme="dark">
       <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="imgs/dlogo" alt="" width="30" height="24" class="d-inline-block align-text-top"></img>
+      <img src="imgs/list-ol.svg" alt="none" width="30" height="24" class="d-inline-block align-text-top"></img>
       Decathlon World Rankings
     </a>
   </div>
 </nav>
-        </header>
+</nav>
+ </header>
     </div>
     
   );
