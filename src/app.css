@@ -8,3 +8,8 @@
   height: 100%;
   border: none;
 }
+.table {
+  width: 75%;
+  margin: auto;
+  height: 100%;
+}
